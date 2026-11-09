@@ -38,6 +38,10 @@
    - Step 1.6, the line Tests: of both runs: Tests: 2 passed, 2 total (both runs)
 
    - Step 1.7, one line of QP01customerTest.java that needs rewriting, and why:
+      - Line 66: `driver.findElement(By.xpath("//label[normalize-space()='Max Calories per Slice']/../input")).sendKeys("600");`
+      - Why: The box already holds 1000. This line types 600 without clearing the box first, so the box ends up with 1000600.
+      - Fix: Call `clear()` before `sendKeys("600")`.
+      - Also wrong: lines 91 and 98 put `vars.get("pizzaName")` inside the quotes, so they compare with that text instead of the pizza name.
 
    ## Part 4: Cypress
    - node --version, npm --version and npx cypress version:
