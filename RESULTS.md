@@ -4,7 +4,7 @@
 
    ## Part 0
    - Step 0.1, Chrome version: 157.0.8103.38 (Official Build) (arm64)
-   - Step 0.3, ChromeDriver version:
+   - Step 0.3, ChromeDriver version: ChromeDriver 157.0.8103.38
    - Step 0.4, locator of Pizza, Please!:
    - Step 0.4, locator of Excluded tools:
    - Step 0.4, locator of Must be vegetarian:
