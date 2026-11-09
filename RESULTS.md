@@ -22,7 +22,7 @@
    | 7 | The list did not show the pizza at first. After Refresh, the 4th line read "LabPizza20261109-2010 (tool=Scissors, ingredients_number=6)", below 3 pizzas of other users | Pass |
 
    ## Part 1: Selenium IDE
-   - Firefox version and Node.js version:
+   - Firefox version and Node.js version: Firefox 159.0.1, Node.js v26.13.0
    - Step 1.4, the line of the failed check and the line Tests:
    - Step 1.5, target chosen for Submit, and why the recorded one was fragile:
    - Step 1.6, commands changed, added or deleted after recording:
