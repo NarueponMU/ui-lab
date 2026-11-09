@@ -24,7 +24,7 @@
    ## Part 1: Selenium IDE
    - Firefox version and Node.js version: Firefox 159.0.1, Node.js v26.13.0
    - Step 1.4, the line of the failed check and the line Tests: "Actual value 'Received!' did not match 'Received' during assertText:id=message:Received" and "Tests: 1 failed, 1 total"
-   - Step 1.5, target chosen for Submit, and why the recorded one was fragile:
+   - Step 1.5, target chosen for Submit, and why the recorded one was fragile: xpath=//button[@type='submit']. The recorded css=.btn uses a style class that other buttons can share, so a new button above Submit would make the test click the wrong one. The type attribute says what the button does.
    - Step 1.6, commands changed, added or deleted after recording:
    - Step 1.6, the pizza names of run 1 and run 2, from the lines info: echo:
    - Step 1.6, the line Tests: of both runs:
