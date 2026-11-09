@@ -5,10 +5,10 @@
    ## Part 0
    - Step 0.1, Chrome version: 157.0.8103.38 (Official Build) (arm64)
    - Step 0.3, ChromeDriver version: ChromeDriver 157.0.8103.38
-   - Step 0.4, locator of Pizza, Please!:
-   - Step 0.4, locator of Excluded tools:
-   - Step 0.4, locator of Must be vegetarian:
-   - Step 0.4, locator of Custom Pizza Name:
+   - Step 0.4, locator of Pizza, Please!: button[name='pizza-please']
+   - Step 0.4, locator of Excluded tools: select
+   - Step 0.4, locator of Must be vegetarian: #default-checkbox
+   - Step 0.4, locator of Custom Pizza Name: input#pizza-name (#pizza-name alone finds 2 after the answer appears)
    - Step 0.5, pizza name, tool and calories of the run by hand:
 
    | Step | Actual result | Pass or fail |
