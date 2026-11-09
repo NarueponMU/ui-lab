@@ -1,0 +1,80 @@
+{
+  "id": "ccaa3d5d-14d5-49b4-8639-2f8de60e3c0a",
+  "version": "2.0",
+  "name": "ui-lab",
+  "url": "https://www.selenium.dev",
+  "tests": [{
+    "id": "d14b265b-dda2-412e-8812-ad7229f0da80",
+    "name": "web form",
+    "commands": [{
+      "id": "f1eade1e-3f4b-4d4e-8485-db4809167289",
+      "comment": "",
+      "command": "open",
+      "target": "/selenium/web/web-form.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8fe09924-428e-4db2-b191-247680c2e683",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1407x1135",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f958ba73-c438-4b92-86ec-1209af00001d",
+      "comment": "",
+      "command": "click",
+      "target": "id=my-text-id",
+      "targets": [
+        ["id=my-text-id", "id"],
+        ["name=my-text", "name"],
+        ["css=#my-text-id", "css:finder"],
+        ["xpath=//input[@id='my-text-id']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2fba5c2-6695-443a-a211-73935dec18f6",
+      "comment": "",
+      "command": "type",
+      "target": "id=my-text-id",
+      "targets": [
+        ["id=my-text-id", "id"],
+        ["name=my-text", "name"],
+        ["css=#my-text-id", "css:finder"],
+        ["xpath=//input[@id='my-text-id']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Hello Selenium"
+    }, {
+      "id": "7ea40585-9dae-40b2-8013-dc4ffec74a2b",
+      "comment": "",
+      "command": "select",
+      "target": "name=my-select",
+      "targets": [],
+      "value": "label=Two"
+    }, {
+      "id": "2ea3db40-b59d-4abf-b4dc-675ba83be77c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4641f31d-2498-4b6d-85db-c3c9e59a9082",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d14b265b-dda2-412e-8812-ad7229f0da80"]
+  }],
+  "urls": ["https://www.selenium.dev/"],
+  "plugins": []
+}
