@@ -10,7 +10,7 @@
       "id": "f1eade1e-3f4b-4d4e-8485-db4809167289",
       "comment": "",
       "command": "open",
-      "target": "   https://www.selenium.dev/selenium/web/web-form.html",
+      "target": "https://www.selenium.dev/selenium/web/web-form.html",
       "targets": [],
       "value": ""
     }, {
