@@ -50,7 +50,7 @@
    - Step 4.7, the line of the admin list that shows your pizza: Lab Pizza 20261110-192231 (tool=Pizza cutter, ingredients_number=8). It was the second line, below a newer pizza of another user.
    - Step 4.8, run 1, result, duration and pizza name: All specs passed (2 of 2 tests), 00:11, Lab Pizza 20261110-204743
    - Step 4.8, run 2, result, duration and pizza name: All specs passed (2 of 2 tests), 00:11, Lab Pizza 20261110-205126
-   - Step 4.9 (optional), browser and result:
+   - Step 4.9 (optional), browser and result: Firefox 159, all specs passed (2 of 2 tests), 00:13, Lab Pizza 20261110-205446. QP-01 took 11 seconds in Firefox against 8 seconds in Chrome, with no change to the specs.
 
    ## Part B
    1.
