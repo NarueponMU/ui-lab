@@ -46,8 +46,8 @@
    ## Part 4: Cypress
    - node --version, npm --version and npx cypress version: v26.13.0, 11.20.0, Cypress package version 16.2.1 and binary version 16.2.1
    - Step 4.3, failure message for the wrong title: "Timed out retrying after 10000ms", with -'Web form' (actual) and +'Web Form' (expected)
-   - Step 4.6, tool and calories in the answer of POST /api/pizza:
-   - Step 4.7, the line of the admin list that shows your pizza:
+   - Step 4.6, tool and calories in the answer of POST /api/pizza: tool Pizza cutter, calories 525 (pizza Lab Pizza 20261110-192231). The request carried maxCaloriesPerSlice 600.
+   - Step 4.7, the line of the admin list that shows your pizza: Lab Pizza 20261110-192231 (tool=Pizza cutter, ingredients_number=8). It was the second line, below a newer pizza of another user.
    - Step 4.8, run 1, result, duration and pizza name:
    - Step 4.8, run 2, result, duration and pizza name:
    - Step 4.9 (optional), browser and result:
