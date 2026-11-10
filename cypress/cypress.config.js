@@ -6,6 +6,8 @@
      viewportHeight: 1600,
      // retry each query and check for up to 10 seconds
      defaultCommandTimeout: 10000,
+     // record a video of each spec during npx cypress run
+     video: true,
      e2e: {
        setupNodeEvents(on, config) {
          // implement node event listeners here
