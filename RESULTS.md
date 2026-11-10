@@ -33,7 +33,7 @@
      - Added (21): 8 waits (rows 2, 5, 6, 7, 8, 12, 21, 28), 9 asserts (rows 3, 16, 17, 18, 19, 22, 23, 26, 29), 2 execute script (rows 9, 25), echo (row 10) and store text (row 24)
      - Note: a first run printed "info: echo: ${pizzaName}" and still passed, because a tab character was pasted before pizzaName in the Value of row 9. The variable was never set, so every step typed and compared the literal text ${pizzaName}. Removing the tab fixed it.
 
-   - Step 1.6, the pizza names of run 1 and run 2, from the lines info: echo: Lab Pizza 20261109-235732
+   - Step 1.6, the pizza names of run 1 and run 2, from the lines info: echo: Lab Pizza 20261109-235732, Lab Pizza 20261110-211200
 
    - Step 1.6, the line Tests: of both runs: Tests: 2 passed, 2 total (both runs)
 
